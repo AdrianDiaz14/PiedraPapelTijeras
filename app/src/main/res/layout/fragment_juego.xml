@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JuegoFragment">
+
+    <ImageView
+        android:id="@+id/gesto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/cuentaAtras"
+        android:layout_width="match_parent"
+        android:layout_height="212dp"
+        android:gravity="center"
+        android:textSize="52sp" />
+
+    <TextView
+        android:id="@+id/cambio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4B2B1C"
+        android:gravity="center"
+        android:text="¡PREPÁRATE! ¿PIEDRA, PAPEL O TIJERAS?"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        android:visibility="gone" />
+</FrameLayout>
